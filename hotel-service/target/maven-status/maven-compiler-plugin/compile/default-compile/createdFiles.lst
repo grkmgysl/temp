@@ -1,0 +1,17 @@
+com\grkmgysl\hotelservice\repository\VacationHomeRepository.class
+com\grkmgysl\hotelservice\config\KafkaTopicConfig.class
+com\grkmgysl\hotelservice\model\Amenities.class
+com\grkmgysl\hotelservice\model\VacationHome.class
+com\grkmgysl\hotelservice\service\SearchService.class
+com\grkmgysl\hotelservice\dto\VacationHomeRequest.class
+com\grkmgysl\hotelservice\dto\VacationHomeResponse$VacationHomeResponseBuilder.class
+com\grkmgysl\hotelservice\HotelServiceApplication.class
+com\grkmgysl\hotelservice\dto\VacationHomeRequest$VacationHomeRequestBuilder.class
+com\grkmgysl\hotelservice\model\Amenities$AmenitiesBuilder.class
+com\grkmgysl\hotelservice\model\VacationHome$VacationHomeBuilder.class
+com\grkmgysl\hotelservice\service\VacationHomeService.class
+com\grkmgysl\hotelservice\config\KafkaProducerConfig.class
+com\grkmgysl\hotelservice\controller\SearchController.class
+com\grkmgysl\hotelservice\controller\VacationHomeController.class
+com\grkmgysl\hotelservice\repository\AmenitiesRepository.class
+com\grkmgysl\hotelservice\dto\VacationHomeResponse.class
