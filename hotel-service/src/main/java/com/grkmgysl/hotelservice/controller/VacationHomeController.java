@@ -7,6 +7,8 @@ import com.grkmgysl.hotelservice.service.VacationHomeService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
+
 
 @RestController
 @RequestMapping("/api/homes")
@@ -21,7 +23,7 @@ public class VacationHomeController {
 
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
-    public void createVacationHome(@RequestBody VacationHomeRequest vacationHomeRequest) throws JsonProcessingException {
+    public void createVacationHome(@Valid @RequestBody VacationHomeRequest vacationHomeRequest) throws JsonProcessingException {
         vacationHomeService.createVacationHome(vacationHomeRequest);
     }
 

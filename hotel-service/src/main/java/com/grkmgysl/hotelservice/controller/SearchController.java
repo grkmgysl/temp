@@ -34,4 +34,9 @@ public class SearchController {
     public List<VacationHomeResponse> getAllVacationHomesByType(@RequestParam String type){
         return searchService.getAllVacationHomesByType(type);
     }
+
+    @GetMapping("/price/{homeId}")
+    public Double getHomePrice(@PathVariable Long homeId){
+        return searchService.getHomePrice(homeId);
+    }
 }

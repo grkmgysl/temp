@@ -15,7 +15,7 @@ import java.util.Date;
 @NoArgsConstructor
 public class ReservationRequest {
 
-    private Double totalPrice;
+    //private Double totalPrice;
     private Integer guests;
 
     private LocalDate checkInDate;

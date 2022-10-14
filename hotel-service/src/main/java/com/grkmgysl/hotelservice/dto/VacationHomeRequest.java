@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.validation.constraints.NotBlank;
 import java.util.List;
 import java.util.Set;
 
@@ -16,6 +17,7 @@ import java.util.Set;
 @NoArgsConstructor
 public class VacationHomeRequest {
 
+    @NotBlank
     private String homeType;
     private String summary;
     private String address;

@@ -35,7 +35,7 @@ public class VacationHomeService {
 
         //kafka send example
         String vacationHomeString = objectMapper.writeValueAsString(vacationHomeRequest);
-        kafkaTemplate.send("hotel", vacationHomeString);
+        //kafkaTemplate.send("hotel", vacationHomeString);
 
         //VacationHome v = objectMapper.convertValue(s, vacationHome.getClass());
 

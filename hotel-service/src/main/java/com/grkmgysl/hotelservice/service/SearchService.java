@@ -34,6 +34,11 @@ public class SearchService {
         return vacationHomes.stream().map(this::mapToVacationHomeResponse).toList();
     }
 
+    public Double getHomePrice(Long homeId){
+        VacationHome vacationHome = optionalToVacationHome(homeId);
+        return vacationHome.getPrice();
+    }
+
     private VacationHome optionalToVacationHome(Long homeId){
 
         Optional<VacationHome> optionalVacationHome = vacationHomeRepository.findById(homeId);
